@@ -14,7 +14,7 @@ defmodule Fitbit do
       client_id: System.get_env("CLIENT_ID"),
       client_secret: System.get_env("CLIENT_SECRET"),
       redirect_uri: System.get_env("REDIRECT_URI"),
-      site: "https://www.fitbit.com",
+      site: "https://api.fitbit.com",
       authorize_url: "https://www.fitbit.com/oauth2/authorize",
       token_url: "https://api.fitbit.com/oauth2/token"
     ])
