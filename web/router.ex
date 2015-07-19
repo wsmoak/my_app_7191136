@@ -19,6 +19,12 @@ defmodule MyApp_7191136.Router do
     resources "/users", UserController
   end
 
+  scope "/auth", MyApp_7191136 do
+    pipe_through :browser
+    get "/", AuthController, :index
+  end
+
+
   # Other scopes may use custom stacks.
   # scope "/api", MyApp_7191136 do
   #   pipe_through :api
