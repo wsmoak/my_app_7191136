@@ -5,8 +5,8 @@ defmodule MyApp_7191136.Repo.Migrations.CreateUser do
     create table(:users) do
       add :name, :string
       add :email, :string
-      add :access_token, :string
-      add :refresh_token, :string
+      add :access_token, :text
+      add :refresh_token, :text
 
       timestamps
     end
