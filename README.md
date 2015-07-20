@@ -1,8 +1,5 @@
 # MyApp_7191136
 
-To start your new Phoenix application:
+Connecting Phoenix to Fitbit with OAuth2
 
-1. Install dependencies with `mix deps.get`
-2. Start Phoenix endpoint with `mix phoenix.server`
-
-Now you can visit `localhost:4000` from your browser.
+See: http://wsmoak.net/2015/07/20/phoenix-fitbit-oauth2-part-1.html
