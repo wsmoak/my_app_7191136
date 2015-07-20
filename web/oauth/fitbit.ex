@@ -1,6 +1,8 @@
 defmodule Fitbit do
   @moduledoc """
   An OAuth2 strategy for Fitbit.
+  Based on the OAuth2 strategy for GitHub by Sonny Scroggin
+  in https://github.com/scrogson/oauth2_example
   """
   use OAuth2.Strategy
 
