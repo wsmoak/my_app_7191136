@@ -22,6 +22,7 @@ defmodule MyApp_7191136.Router do
   scope "/auth", MyApp_7191136 do
     pipe_through :browser
     get "/", AuthController, :index
+    get "/callback", AuthController, :callback
   end
 
 

@@ -6,12 +6,14 @@ defmodule MyApp_7191136.User do
     field :email, :string
     field :access_token, :string
     field :refresh_token, :string
+    field :user_id, :string
+    field :expires_at, :datetime
 
     timestamps
   end
 
-  @required_fields ~w(name email access_token refresh_token)
-  @optional_fields ~w()
+  @required_fields ~w()
+  @optional_fields ~w(name email access_token refresh_token user_id expires_at)
 
   @doc """
   Creates a changeset based on the `model` and `params`.
